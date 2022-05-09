@@ -19,7 +19,7 @@
 
   [Tests](#test)
 
-  ![Profile screen shot](../public/aboutme.PNG)
+  ![Profile screen shot](aboutme.PNG)
 
   ## Installation
 
