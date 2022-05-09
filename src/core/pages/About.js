@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './Web_Developer_Inicholas3.png';
+import logo from '../assets/Web_Developer_Inicholas3.png';
 
 const styles = {
   background: '#000000',
@@ -7,12 +7,13 @@ const styles = {
 const header = {
   width: '100%',
   backgroundColor: '#000000',
+  paddingLeft: '48px',
 }
-export default function Home() {
+export default function Aboutme() {
 
   return (
-    <div className="px-4 about-me" style={header}>
-        <div className="row flex-lg-row-reverse align-items-center" style={styles}>
+    <div className="py-5" style={header}>
+        <div className=" container-fluid row flex-lg-row-reverse align-items-center" style={styles}>
           <div className="col-10 col-sm-8 col-lg-6">
             <img src={logo} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
           </div>

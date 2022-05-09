@@ -1,4 +1,5 @@
 import React from "react";
+const resume = 'IanNicholasResume.pdf';
 
 export default function Resume() {
   const styles = {
@@ -21,8 +22,9 @@ export default function Resume() {
       <h1>
         <a
           style={link}
-          href="https://docs.google.com/document/d/1_doRDVq9zZmeb_vEt0z1FRzE0OCTECxpfiRpNM77CQI/edit?usp=sharing"
+          href={resume}
           target="blank"
+          download
         >
           Click here to download my resume
         </a>
@@ -42,7 +44,7 @@ export default function Resume() {
         <li>MySQL</li>
         <li>MongoDB</li>
         <li>Mongoose</li>
-        <li>graphql</li>
+        <li>Graphql</li>
         <li>React</li>
       </ul>
     </div>

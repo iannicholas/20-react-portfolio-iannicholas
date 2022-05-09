@@ -1,7 +1,7 @@
 const projects = [
   {
     name : 'Esbelta',
-    image : 'https://i.imgur.com/QJFJ5Z5.png',
+    image : './/sbelta_img.pmg',
     github : 'https://github.com/iannicholas/Esbelta.git',
     url : 'http://www.esbelta.com.mx',
     description: 'Beauty starts within, that is why Esbelta sepecializes in creating treatments focused on rejuvination.',
@@ -36,8 +36,8 @@ const projects = [
   },
   {
     name : 'Weather Dashboard',
-    image : 'https://i.imgur.com/QJFJ5Z5.png',
-    github : 'https://github.com/iannicholas/06-Server-Side-APIs-IanNicholas-Homework',
+    image : 'https://i.imgur.com/QJFJ5Z5.png','https://github.com/iannicholas/06-Server-Side-APIs-IanNicholas-Homework'
+    github : ,
     url : 'https://iannicholas.github.io/06-Server-Side-APIs-IanNicholas-Homework/',
     description: 'Planning on traveling, curious about the weather in your area, or a family members area, click me.',
   }
