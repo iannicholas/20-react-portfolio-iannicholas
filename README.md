@@ -19,7 +19,8 @@
 
   [Tests](#test)
 
-  ![Demo of all routes to return all users and all thoughts being tested in Insomnia.](./assets/socialnetwork.gif)
+  ![Profile screen shot](../public/aboutme.PNG)
+
   ## Installation
 
   ~~~
