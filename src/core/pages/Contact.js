@@ -21,8 +21,12 @@ export default function Contact() {
   const h1 = {
     color: "white",
   };
+  const h2 = {
+    color: "white",
+    padding: "20px",
+  };
   return (
-    <form style={formGroup}>
+    <><form style={formGroup}>
       <h1 style={h1}>Contact Me</h1>
       <div class="form-group" style={formInputs}>
         <label for="exampleInputInput1"></label>
@@ -59,6 +63,8 @@ export default function Contact() {
       <button type="submit" class="btn btn-primary" style={formButton}>
         Submit
       </button>
+      <h2 style={h2}>Or Email me <a href='mailto:ian.nicholas.webdeveloper@gmail.com'>Here</a></h2>
     </form>
+    </>
   );
 }

@@ -29,6 +29,7 @@ export default function Portfolio() {
               Beauty starts within, that is why Esbelta sepecializes in creating
               medical and beauty treatments focused on rejuvination.
             </p>
+            <p className="lead text-white">Used a purchased theme to build this site.</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <a
                 href={"http://www.esbelta.com.mx"}
@@ -77,7 +78,9 @@ export default function Portfolio() {
             <p className="lead text-white">
               Find yourself in Tax trouble, look no further Call Tax Relief.
             </p>
-
+            <p className="lead text-white">
+              Built on WordPress.
+            </p>
             <a
               href="https://www.calltaxrelief.com/"
               target="blank"
@@ -98,12 +101,15 @@ export default function Portfolio() {
               Laboratorio Visual is a Digital Agency that specializes in
               tailored merketing services.
             </p>
+            <p className="lead text-white">
+              Used purchased theme to build this site.
+            </p>
             <a
               href="http://laboratoriovisual.com/"
               target="blank"
               className="text-decoration-none"
             >
-              Laboratorio Visual
+              Laboratorio Visual{" "}
             </a>
             <a
               href="https://github.com/iannicholas/LaboratorioVisual.git"
@@ -145,12 +151,15 @@ export default function Portfolio() {
               Gotta go, we got you. Sort by unisex, ADA, or baby changing and we
               will find you a place.
             </p>
+            <p className="lead text-white">
+              Used plain JavaScript, Mapbox and Refuge Restroom API, and BUlma foro styling 
+            </p>
             <a
               href="https://therestroomhunters.github.io/public-restroom-search/"
               target="blank"
               className="text-decoration-none"
             >
-              Restroom Locator
+              Restroom Locator{" "}
             </a>
             <a
               href="https://github.com/therestroomhunters/public-restroom-search"
@@ -170,12 +179,15 @@ export default function Portfolio() {
               Propose trades, accept offers or barter with other users to find
               what you are looking for.
             </p>
+            <p className="lead text-white">
+              For this project we used Express, Handlebars, Sequelize, and Bcrypt.
+            </p>
             <a
               href="https://rocky-island-25113.herokuapp.com/"
               target="blank"
               className="text-decoration-none"
             >
-              TradeUp
+              TradeUp{" "}
             </a>
             <a
               href="https://github.com/Will-Pikus/Project-2.git"
@@ -217,12 +229,15 @@ export default function Portfolio() {
             Planning on traveling, curious about the weather in your area,
               or a family members area, click me.
             </p>
+            <p className="lead text-white">
+            Plain JavaScript and the OpenWeather API.
+            </p>
             <a
               href="https://iannicholas.github.io/06-Server-Side-APIs-IanNicholas-Homework/"
               target="blank"
               className="text-decoration-none"
             >
-              Weather Dashboard
+              Weather Dashboard{" "}
             </a>
             <a
               href="https://github.com/iannicholas/06-Server-Side-APIs-IanNicholas-Homework"
